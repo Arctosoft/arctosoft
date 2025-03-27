@@ -214,6 +214,9 @@
                 <PageContent id="websites" class="flex flex-col space-y-4">
                     <PageTitle>Websites</PageTitle>
                     <div class="space-y-1 text-lg flex flex-wrap gap-y-6">
+                        <SiteItem name="Hanti.se" description="Marknadsplatsen för hantverk"
+                            url="https://hanti.se/" icon="/websites/hanti.webp" swedish dark>
+                        </SiteItem>
                         <SiteItem name="UV-prognos.se" description="UV-index och prognoser för 2017 svenska städer"
                             url="https://uvprognos.se/" icon="/websites/uvprognos.webp" swedish dark>
                         </SiteItem>
