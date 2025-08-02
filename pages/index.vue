@@ -13,7 +13,7 @@
             </TransitionFade>
 
             <div class="w-full flex flex-col p-4 gap-8 justify-center items-center">
-                <img src="/logo/256.png" class="w-28 md:w-36"/>
+                <img src="/logo/256.png" class="w-28 md:w-36" />
                 <h1 class="text-7xl lg:text-8xl text-center text-white font-title tracking-wider">Arctosoft</h1>
                 <div class="flex flex-wrap items-center justify-center text-center gap-2">
                     <p class="text-2xl text-white tracking-wider font-light">Android & web development made in </p>
@@ -214,11 +214,14 @@
                 <PageContent id="websites" class="flex flex-col space-y-4">
                     <PageTitle>Websites</PageTitle>
                     <div class="space-y-1 text-lg flex flex-wrap gap-y-6">
-                        <SiteItem name="Hanti.se" description="Marknadsplatsen för hantverk"
-                            url="https://hanti.se/" icon="/websites/hanti.webp" swedish dark>
+                        <SiteItem name="Hanti.se" description="Marknadsplatsen för hantverk" url="https://hanti.se/"
+                            icon="/websites/hanti.webp" swedish dark>
                         </SiteItem>
-                        <SiteItem name="UV-prognos.se" description="UV-index och prognoser för 2017 svenska städer"
+                        <SiteItem name="UV-prognos" description="UV-index och prognoser för 2017 svenska städer"
                             url="https://uvprognos.se/" icon="/websites/uvprognos.webp" swedish dark>
+                        </SiteItem>
+                        <SiteItem name="Fästingkartan" description="En karta över fästingobservationer i Sverige"
+                            url="https://fastingkartan.se/" icon="/websites/fastingkartan.webp" swedish dark>
                         </SiteItem>
                     </div>
                 </PageContent>
@@ -235,8 +238,9 @@
                     <SiteItem name="Malmhund.com" description="Swedish made dog leashes." url="https://malmhund.com/"
                         icon="/websites/malmhund.webp">
                     </SiteItem>
-                    <SiteItem name="Arcto3D" description="FDM 3D-printing services and products. Need something 3D-printed? Contact us for more information." url="/about"
-                        icon="/websites/arcto3d.webp" stay>
+                    <SiteItem name="Arcto3D"
+                        description="FDM 3D-printing services and products. Need something 3D-printed? Contact us for more information."
+                        url="/about" icon="/websites/arcto3d.webp" stay>
                     </SiteItem>
                 </div>
             </PageContent>
