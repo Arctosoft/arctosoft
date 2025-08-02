@@ -12,6 +12,8 @@ export default defineNuxtConfig({
     transpile: ["@heroicons/vue"],
   },
 
+  ssr: false,
+
   //debug: true,
 
   tailwindcss: { exposeConfig: true },
